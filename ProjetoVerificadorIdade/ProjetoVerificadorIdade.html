@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora do dia</title>
+    <link rel="stylesheet" href="ProjetoVerificadorIdade.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    
+    <section>
+        <div>
+
+           <p>
+               Ano do nascimento: 
+               <input type="number" id="agePersons">
+            </p> 
+
+            <p>
+                Sexo:
+                <input type="radio"  name= "chkSex" id="rmale" checked>
+                <Label for="male">Masculino</LAbel>
+                <input type="radio" name= "chkSex"  id="rfemale">
+                <Label for="female">Feminino</LAbel> 
+            </p>
+
+            <p>
+                <input type="button" id="buttonCheck" value="Verificar" onclick="checkAgeandSex()">
+            </p>
+        </div>
+        
+        <div id = "labelResult"> Preencha os dados acima e veja o resultado.</div>
+
+        <div id = "img">
+            <img id ="representationInPhotoAppearance">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; CODE-JS Coporation</p>
+    </footer>
+    <script src="ProjetoVerificadorIdade.js"> </script>
+</body>
+</html>
